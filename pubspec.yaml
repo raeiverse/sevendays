@@ -63,6 +63,12 @@ flutter:
     - assets/images/background.png
     - assets/images/logo.png
     - assets/images/sword.png
+    - assets/images/left.png
+    - assets/images/right.png
+    - assets/started/btn.png
+    - assets/started/btn_2.png
+    - assets/started/cover.png
+    - assets/started/gallery.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
