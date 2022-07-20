@@ -69,6 +69,8 @@ flutter:
     - assets/started/btn_2.png
     - assets/started/cover.png
     - assets/started/gallery.png
+    - assets/signin/coin.png
+    - assets/signin/19.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
