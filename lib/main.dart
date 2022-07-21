@@ -5,6 +5,8 @@ import 'package:sevendays/pages/started_1.dart';
 import 'package:sevendays/pages/started_2.dart';
 import 'package:sevendays/pages/signin_1.dart';
 import 'package:sevendays/pages/signin_2.dart';
+import 'package:sevendays/pages/emptyState_1.dart';
+import 'package:sevendays/pages/emptyState_2.dart';
 
 void main() => runApp(sevendays());
 
@@ -13,7 +15,7 @@ class sevendays extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: signin_2(),
+      home: emptyState_2(),
     );
   }
 }
