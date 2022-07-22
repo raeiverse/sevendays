@@ -37,3 +37,52 @@ TextStyle sublabelText_2 = GoogleFonts.poppins(
   fontSize: 16,
   color: whiteColor,
 );
+
+//theme rating
+TextStyle labelRating = GoogleFonts.poppins(
+  fontSize: 24,
+  fontWeight: FontWeight.w600,
+  color: Color(0xffFFFFFF),
+);
+
+TextStyle priceRating = GoogleFonts.poppins(
+  fontSize: 20,
+  fontWeight: FontWeight.normal,
+  color: Color(0xffFFFFFF),
+);
+
+TextStyle questionRating = GoogleFonts.poppins(
+  fontSize: 18,
+  fontWeight: FontWeight.w500,
+  color: Color(0xffFFFFFF),
+);
+
+TextStyle btnRating = GoogleFonts.poppins(
+  fontSize: 16,
+  fontWeight: FontWeight.w600,
+  color: Color(0xffFFFFFF),
+);
+
+TextStyle labelRating_2 = GoogleFonts.poppins(
+  fontSize: 20,
+  fontWeight: FontWeight.w600,
+  color: Color(0xff121622),
+);
+
+TextStyle sublabelRating = GoogleFonts.poppins(
+  fontSize: 16,
+  fontWeight: FontWeight.normal,
+  color: Color(0xff808EAB),
+);
+
+TextStyle msg = GoogleFonts.poppins(
+  fontSize: 14,
+  fontWeight: FontWeight.normal,
+  color: Color(0xff808EAB),
+);
+
+TextStyle textRating = GoogleFonts.poppins(
+  fontSize: 16,
+  fontWeight: FontWeight.w500,
+  color: Color(0xff121622),
+);
