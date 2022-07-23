@@ -82,6 +82,14 @@ flutter:
     - assets/rating/btn_4.png
     - assets/rating/star_1.png
     - assets/rating/star_2.png
+    - assets/pricing/crown.png
+    - assets/pricing/arrow.png
+    - assets/pricing/check.png
+    - assets/pricing/coin.png
+    - assets/pricing/main.png
+    - assets/pricing/paper.png
+    - assets/pricing/pig.png
+    - assets/pricing/select.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

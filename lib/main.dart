@@ -9,6 +9,8 @@ import 'package:sevendays/pages/emptyState_1.dart';
 import 'package:sevendays/pages/emptyState_2.dart';
 import 'package:sevendays/pages/rating_1.dart';
 import 'package:sevendays/pages/rating_2.dart';
+import 'package:sevendays/pages/pricing_1.dart';
+import 'package:sevendays/pages/pricing_2.dart';
 
 void main() => runApp(sevendays());
 
@@ -17,7 +19,7 @@ class sevendays extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: rating_2(),
+      home: pricing_2(),
     );
   }
 }
