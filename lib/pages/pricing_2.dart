@@ -100,16 +100,38 @@ class _pricing_2State extends State<pricing_2> {
               decoration: BoxDecoration(
                 color: Color(0xffE57C73),
                 borderRadius: BorderRadius.circular(31),
-              ),
-              child: Center(
-                child: Text(
-                  'Subscribe Now',
-                  style: GoogleFonts.poppins(
-                    color: Color(0xffFFFFFF),
-                    fontSize: 16,
-                    fontWeight: FontWeight.w600,
+                boxShadow: [
+                  BoxShadow(
+                    color: Color(0xffE57C73).withOpacity(0.4),
+                    spreadRadius: 3,
+                    blurRadius: 9,
+                    offset: Offset(0, 7),
                   ),
-                ),
+                ],
+              ),
+              child: Row(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(left: 84),
+                    child: Text(
+                      'Subscribe Now',
+                      style: GoogleFonts.poppins(
+                        color: Color(0xffFFFFFF),
+                        fontSize: 16,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(
+                      left: 49,
+                    ),
+                    child: Image.asset(
+                      'assets/pricing/arrow.png',
+                      width: 33,
+                    ),
+                  ),
+                ],
               ),
             ),
             Padding(
