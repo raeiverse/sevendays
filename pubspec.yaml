@@ -90,6 +90,15 @@ flutter:
     - assets/pricing/paper.png
     - assets/pricing/pig.png
     - assets/pricing/select.png
+    - assets/random/burger.png
+    - assets/random/cover.png
+    - assets/random/day_1.png
+    - assets/random/day_2.png
+    - assets/random/day_3.png
+    - assets/random/day_4.png
+    - assets/random/min_icon.png
+    - assets/random/mojito.png
+    - assets/random/plus_icon.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
