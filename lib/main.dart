@@ -12,6 +12,7 @@ import 'package:sevendays/pages/rating_2.dart';
 import 'package:sevendays/pages/pricing_1.dart';
 import 'package:sevendays/pages/pricing_2.dart';
 import 'package:sevendays/pages/randomScreen_1.dart';
+import 'package:sevendays/pages/randomScreen_2.dart';
 
 void main() => runApp(sevendays());
 
@@ -20,7 +21,7 @@ class sevendays extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: randomScreen_1(),
+      home: randomScreen_2(),
     );
   }
 }
